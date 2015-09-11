@@ -1,10 +1,10 @@
 <h3><b>Collection of Bioinformatics Scripts in BASH</b></h3>
 
-The BASH scripts were used in bioinformatical analysis of next-generation sequencing data from genomic DNase I cleavage samples. 
+The BASH scripts were used in bioinformatical analysis of next-generation sequencing data from DNase I digested genomes. 
   
-  <li>Aggregated_Plot: Distinct binding profile of transcription factors were visualized while aggregated DNase I cleavage was plotted to distances from the motif centers. 
+  <li>Aggregated_Plot: Distinct binding profile of transcription factors were visualized while aggregated DNase I cleavage was plotted to distance from the motif centers. 
 
-  <li>Cleavage_Heatmap: Distinct binding profile of transcription factors were visualized while DNase I cleavage was plotted to distances from the motif center on heatmap.  
+  <li>Cleavage_Heatmap: Distinct binding profile of transcription factors were visualized while DNase I cleavage was plotted to distance from the motif center on heatmap.  
 
   <li>Conservation_Plot: Sequence conservation of the motif instances were plotted to distance from motif centers. 
 
@@ -16,7 +16,7 @@ The BASH scripts were used in bioinformatical analysis of next-generation sequen
 
   <li>Footprints_Location: The footprints were summarized according to their relative distance from the nearest transcription start sites, gene starts, or sigma factor binding sites. 
 
-  <li>Fragment_VPlot: DNase I cleavage were visualized as V-shape gaps while the length of paired-end sequencing fragments was plotted to distances from the motif centers. 
+  <li>Fragment_VPlot: DNase I cleavage were visualized as V-shape gaps while the length of paired-end sequencing fragments was plotted to distance from the motif centers. 
 
   <li>Genome_Alignment: Sequencing reads were aligned to unique positions of microbial genome with Burrows-Wheeler Aligner. 
 
