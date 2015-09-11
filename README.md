@@ -2,24 +2,24 @@
 
 The BASH scripts were used in bioinformatical analysis of next-generation sequencing data from DNase I digested genomes. 
   
-  <li>Aggregated_Plot: Distinct binding profile of transcription factors were visualized while aggregated DNase I cleavage was plotted to distance from the motif centers. 
+  <li>Aggregated_Plot: Distinct binding profile of transcription factors was visualized while aggregated DNase I cleavage was plotted to distance from motif centers. 
 
-  <li>Cleavage_Heatmap: Distinct binding profile of transcription factors were visualized while DNase I cleavage was plotted to distance from the motif center on heatmap.  
+  <li>Cleavage_Heatmap: Distinct binding profile of transcription factors was visualized while DNase I cleavage was plotted to distance from motif centers on heatmap.  
 
-  <li>Conservation_Plot: Sequence conservation of the motif instances were plotted to distance from motif centers. 
+  <li>Conservation_Plot: Sequence conservation of motif instances was plotted to distance from motif centers. 
 
-  <li>Cut_Counts_and_Density: The counts of DNase I cleavage for each nucleotide were calculated, and density files were generated across the genome. 
+  <li>Cut_Counts_and_Density: Frequency of DNase I cleavage was calculated as counts of sequencing tags at each nucleotide, and density file of DNase I cleavage was generated across the genome. 
 
-  <li>DESeq: Sequencing data of microbial cultures at various growht stages were compared with the R package "DESeq" to test for differential sensitivity to DNase I cleavage. 
+  <li>DESeq: Sequencing data of multiple microbial cultures were compared with the R package "DESeq" to test for differential sensitivity to DNase I cleavage. 
 
-  <li>FIMO: The genome was scanned with FIMO (Find Individual Motif Occurences) to locate potential motif instances of the known transcription factors. 
+  <li>FIMO: Genome was scanned with FIMO (Find Individual Motif Occurences) of the MEME Suite to locate potential motif instances of the known transcription factors. 
 
-  <li>Footprints_Location: The footprints were summarized according to their relative distance from the nearest transcription start sites, gene starts, or sigma factor binding sites. 
+  <li>Footprints_Location: Footprints were summarized according to their relative distances from the nearest transcription start sites, gene start sites, or sigma factor binding sites. 
 
-  <li>Fragment_VPlot: DNase I cleavage were visualized as V-shape gaps while the length of paired-end sequencing fragments was plotted to distance from the motif centers. 
+  <li>Fragment_VPlot: Distinct binding profile of transcription factors was visualized as V-shape gaps while lengths of paired-end sequencing fragments were plotted to distance from motif centers. 
 
-  <li>Genome_Alignment: Sequencing reads were aligned to unique positions of microbial genome with Burrows-Wheeler Aligner. 
+  <li>Genome_Alignment: Sequencing reads were aligned to unique positions on microbial genome with Burrows-Wheeler Aligner. 
 
-  <li>MEME: Binding motifs of transcription factors were detected with MEME (Multiple Em for Motif Elicitation) of the MEME Suite, the motif-based sequence analysis tools. 
+  <li>MEME: Motifs of transcription factors were detected with MEME (Multiple Em for Motif Elicitation) of the MEME Suite, the motif-based sequence analysis tools. 
 
   <li>SPP: DNase I hypersensitive sites were located with the R package "SPP" as regions condensed with sequencing tags. 
