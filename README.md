@@ -1,25 +1,25 @@
-<b>Collection of Bioinformatics Scripts in BASH</b>
+<h2><b>Collection of Bioinformatics Scripts in BASH</b></h2>
 
 The BASH scripts were used in bioinformatical analysis of next-generation sequencing data from genomic DNase I cleavage samples. 
 
-Aggregated_Plot:
+    <b>Aggregated_Plot:</b>
 
-Cleavage_Heatmap:
+    <b>Cleavage_Heatmap:</b>
 
-Conservation_Plot:
+    <b>Conservation_Plot:</b>
 
-Cut_Counts_and_Density:
+    <b>Cut_Counts_and_Density:</b>
 
-DESeq:
+    <b>DESeq:</b>
 
-FIMO:
+    <b>FIMO:</b>
 
-Footprints_Location:
+    <b>Footprints_Location:</b>
 
-Fragment_VPlot:
+    <b>Fragment_VPlot:</b>
 
-Genome_Alignment:
+    <b>Genome_Alignment:</b>
 
-MEME:
+    <b>MEME:</b>
 
-SPP:
+    <b>SPP:</b>
