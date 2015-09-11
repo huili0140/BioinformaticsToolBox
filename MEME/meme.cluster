@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#
+# runall.cluster
+#
+
+#$ -N memeCluster8
+#$ -S /bin/bash
+#$ -pe mpi_test 8
+#$ -v -np=8
+#$ -cwd
+#$ -o "memeCluster8.out"
+#$ -e "memeCluster8.err"
+#$ -notify
+#$ -V
+
+files="*.fa"
+
+for file in $files
+do
+
+prefix=`basename $file .fa`
+
+time /opt/openmpi-1.4/bin/mpirun -np 8 \
+       /usr/local/bin/meme_p \
+       /home/huili/BWA_YAC/hg19_chrY/hotspot/motifbyMEME/$file \
+       -oc /home/huili/BWA_YAC/hg19_chrY/hotspot/motifbyMEME/$prefix.6-20.out \
+       -nmotifs 25 \
+       -maxsize 1500000 \
+       -dna \
+       -minw 6 -maxw 20  -revcomp \
+       -p 8
+
+done
+exit
+
+
